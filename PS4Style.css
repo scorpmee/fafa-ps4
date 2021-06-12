@@ -1,0 +1,961 @@
+header {
+  height: 650px;
+}
+
+.navBar {
+  position: absolute;
+  width: 1343px;
+  height: 50px;
+  left: 2px;
+  top: 0px;
+  z-index: 999;
+  background: #F5F5F5;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.home {
+  position: absolute;
+  width: 140px;
+  left: 42px;
+  top: -35px;
+  font-family: 'Fira Code', monospace;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+}
+
+.nav_ul {
+  padding: 0;
+  list-style: none;
+  display: table;
+  text-align: center;
+}
+
+.nav_li {
+  display: inline;
+  position: relative;
+  margin: 0 60px 0 60px;
+  bottom: 55px;
+  left: 250px;
+}
+
+.nav_a {
+  color: #000000;
+  font-family: 'Fira Code', monospace;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav_a:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0px;
+}
+
+.nav_a:hover:after {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+
+
+.ps4Img {
+  position: absolute;
+  top: -90px;
+  width: 1343px;
+}
+
+.logo {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: 390px;
+  top: 70px;
+}
+
+.ps4Text {
+  position: absolute;
+  width: 569px;
+  height: 85px;
+  left: 870px;
+  top: 230px;
+  font-family: Carrois Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #1C1B1B;
+}
+
+.mostRec {
+  position: absolute;
+  width: 499px;
+  height: 89px;
+  left: 52px;
+  top: 580px;
+  font-family: 'Fira Code', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.img1 {
+
+  position: absolute;
+  width: 425px;
+  height: 239px;
+  left: 29px;
+  top: 732px;
+  border-radius: 25px;
+}
+
+.imgTitle1 {
+  position: absolute;
+  width: 500px;
+  height: 239px;
+  left: 450px;
+  top: 680px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.FirstCon {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 450px;
+  top: 760px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.writer {
+  position: absolute;
+  width: 900px;
+  height: 328px;
+  left: 450px;
+  top: 879px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958D8D;
+}
+
+.imgTitle2 {
+  position: absolute;
+  width: 500px;
+  height: 239px;
+  left: 450px;
+  top: 940px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.secCon {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 450px;
+  top: 1050px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.writer2 {
+  position: absolute;
+  width: 900px;
+  height: 328px;
+  left: 450px;
+  top: 1150px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958D8D;
+}
+
+.imgTilte3 {
+  position: absolute;
+  width: 500px;
+  height: 239px;
+  left: 450px;
+  top: 1200px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+.ThirdCon {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 450px;
+  top: 1250px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.writer3 {
+  position: absolute;
+  width: 900px;
+  height: 328px;
+  left: 450px;
+  top: 1370px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958D8D;
+}
+
+.imgTitle4 {
+  position: absolute;
+  width: 500px;
+  height: 239px;
+  left: 450px;
+  top: 1470px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.fourthCon {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 450px;
+  top: 1580px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.writer4 {
+  position: absolute;
+  width: 900px;
+  height: 328px;
+  left: 450px;
+  top: 1680px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #958D8D;
+}
+
+.Rectangle {
+  position: absolute;
+  width: 152px;
+  height: 40px;
+  left: 570px;
+  top: 1800px;
+  background: #3A3B3C;
+  border-radius: 25px;
+}
+
+.ViewMore {
+  position: absolute;
+  width: 310px;
+  height: 43px;
+  left: 491px;
+  top: 1800px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.GAMES{
+
+    position: absolute;
+    top: 1880px;
+    left: 3px
+
+}
+.ArticleTitle1 {
+  position: absolute;
+  width: 1181px;
+  height: 301px;
+  left: 84px;
+  top: 100px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  color: #000000;
+}
+
+
+.ArtclTit1 {
+  position: absolute;
+  width: 835px;
+  height: 341px;
+  left: 143px;
+  top: 230px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #D81212;
+}
+
+.img1A {
+  position: absolute;
+  width: 1176px;
+  height: 580px;
+  left: 74px;
+  top: 303px;
+}
+
+
+.ArticleCon {
+  position: absolute;
+  width: 1182px;
+  height: 1206px;
+  left: 57px;
+  top: 900px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.ArticleTitle2 {
+  position: absolute;
+  width: 1181px;
+  height: 301px;
+  left: 84px;
+  top: 100px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.ArtclTit2 {
+  position: absolute;
+  width: 1181px;
+  height: 301px;
+  left: 84px;
+  top: 230px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #D81212;
+}
+
+.img2A {
+  position: absolute;
+  width: 1090px;
+  height: 468px;
+  left: 120px;
+  top: 350px;
+}
+
+.ArticleCon2 {
+  position: absolute;
+  width: 1261px;
+  height: 278px;
+  left: 62px;
+  top: 1200px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.ArticleCon22 {
+  position: absolute;
+  width: 1261px;
+  height: 278px;
+  left: 62px;
+  top: 1950px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.vd {
+  position: absolute;
+  width: 919px;
+  height: 512px;
+  left: 180px;
+  top: 1500px;
+}
+
+.ArticleTitle3{
+  position: absolute;
+width: 1296px;
+height: 201px;
+left: 35px;
+top: 80px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 63px;
+
+color: #000000;
+
+}
+.ArtclTit3{
+  position: absolute;
+width: 1180px;
+height: 150px;
+left: 35px;
+top: 150px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+
+color: #D81212;
+
+}
+.img3A{
+  position: absolute;
+  width: 1104px;
+  height: 555px;
+  left: 131px;
+  top: 280px;
+
+
+}
+.ArticleCon3 {
+  position: absolute;
+  width: 1200px;
+  height: 1000px;
+  left: 62px;
+  top: 650px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+.ArticleTitle4{
+  position: absolute;
+width: 1296px;
+height: 201px;
+left: 35px;
+top: 80px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 63px;
+
+color: #000000;
+
+}
+.ArtclTit4{
+  position: absolute;
+width: 1180px;
+height: 150px;
+left: 35px;
+top: 200px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+
+color: #D81212;
+
+}
+.img4A{
+  position: absolute;
+width: 1020px;
+height: 522px;
+left: 130px;
+top: 300px;
+
+}
+.ArticleCon4 {
+  position: absolute;
+width: 1232px;
+height: 453px;
+left: -60px;
+top: 530px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.imgCon4 {
+  position: absolute;
+  width: 1020px;
+  height: 522px;
+  left: 0px;
+  top: 950px;
+}
+.ArticleCon44 {
+  position: absolute;
+width: 1232px;
+height: 453px;
+left: -60px;
+top: 1500px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+.imgCon44 {
+  position: absolute;
+  width: 1020px;
+  height: 522px;
+  left: 0px;
+  top: 1770px;
+
+}
+.ArticleCon444 {
+  position: absolute;
+width: 1096px;
+height: 1377px;
+left: -60px;
+top: 2300px;
+
+font-family: Fira Code;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.PS4IMG {
+  position: absolute;
+  width: 1349px;
+  height: 319px;
+  left: -76px;
+  top: 50px;
+}
+.logo{
+  position: absolute;
+width: 400px;
+height: 100px;
+left: 475px;
+top: 80px;
+
+}
+.whiteps4 {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  left: -70px;
+  top: 180px;
+}
+
+.PlayStation {
+
+  position: absolute;
+  width: 692px;
+  height: 500px;
+  left: 600px;
+  top: 200px;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+.remote {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  left: 680px;
+  top: 400px;
+}
+
+.PlayStation2 {
+  position: absolute;
+  width: 692px;
+  height: 500px;
+  left: 53px;
+  top: 580px;
+
+  font-family: Alata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+}
+.fiche{
+  position: absolute;
+width: 499px;
+height: 808px;
+left: 73px;
+top: 990px;
+}
+.PlayStation3{
+  position: absolute;
+width: 692px;
+height: 500px;
+left: 600px;
+top: 980px;
+
+font-family: Alata;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+
+}
+.vd2{
+  position: absolute;
+left: 600px;
+top: 1400px;
+
+}
+.buy{
+  position: absolute;
+width: 1131px;
+height: 55px;
+left: 106px;
+top: 1900px;
+
+
+}
+.buy2{
+  position: absolute;
+width: 942px;
+height: 33px;
+left: 209px;
+top: 1910px;
+
+font-family: Carrois Gothic;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+.amazon{
+  position: absolute;
+width: 200px;
+height: 56.65px;
+left: 106px;
+top: 2069px;
+
+}
+.Cdiscount{
+  position: absolute;
+width: 200px;
+height: 56.13px;
+left: 349px;
+top: 2069px;
+
+}
+.fnac{
+  position: absolute;
+width: 100px;
+height: 103.17px;
+left: 634px;
+top: 2046px;
+
+}
+.darty{
+  position: absolute;
+width: 100px;
+height: 100.33px;
+left: 805px;
+top: 2049px;
+}
+.boulanger{
+  position: absolute;
+width: 200px;
+height: 27.5px;
+left: 976px;
+top: 2085px;
+}
+.game1{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 740px;
+  top: 1670px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  color: #000000;
+}
+.game2{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 745px;
+  top: 2035px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  color: #000000;
+}
+.game3 {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 745px;
+  top: 2390px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 29px;
+  color: #000000;
+}
+.game4 {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 745px;
+  top: 2720px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 29px;
+  color: #000000;
+}
+.game5 {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 745px;
+  top: 3100px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 29px;
+  color: #000000;
+}
+.game6 {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 745px;
+  top: 3450px;
+  font-family: Fahkwang;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 29px;
+  color: #000000;
+}
+.game2vd{
+  position: absolute;
+width: 715px;
+height: 437px;
+left: 60px;
+top: 1640px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #F5F5F5;
+    color: #958D8D;
+    width: 1349px;
+    height: 300px;
+    left: 0;
+    top: 2250px;
+
+  }
+  .footer2{
+      position: absolute;
+      background-color: #F5F5F5;
+      color: #958D8D;
+      width: 1349px;
+      height: 300px;
+      left: 0px;
+      top: 3800px;
+
+    }
+
+
+
+           .footer3{
+               position: absolute;
+               background-color: #F5F5F5;
+               color: #958D8D;
+               width: 1349px;
+               height: 300px;
+               left: -130px;
+               top: 3600px;
+              }
+
+  .plateforme{
+    position: absolute;
+    left: 60px;
+    top: 70px;
+
+  }
+  li{
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+    font-family: 'Fira Mono', monospace;
+    font-weight: 900;
+    font-size: 13px;
+  }
+
+  .plateformeT{
+    position: absolute;
+    bottom: 210px;
+    font-family: 'Fira Mono', monospace;
+
+  }
+  .socialMedia{
+    position: absolute;
+    left: 350px;
+    top: 70px;
+  }
+  .socialMediaT{
+    position: absolute;
+    bottom: 160px;
+    font-family: 'Fira Mono', monospace;
+    width: 150px;
+  }
+  .GBOX{
+
+      position: absolute;
+      left: 640px;
+      top: 70px;
+
+  }
+  .termPrivacy{
+    position: absolute;
+    left: 930px;
+    top: 50px;
+  }
+  .GBOXT{
+    position: absolute;
+    bottom: 160px;
+    font-family: 'Fira Mono', monospace;
+    width: 150px;
+  }
+
+.aFooter{
+    text-decoration: none;
+    color: #958D8D;
+    transition: all .2s;
+}
+.aFooter:hover{
+  background-color: #3A3B3C;
+  color: #F5F5F5;
+}
+
+.privacy{
+  position: absolute;
+  top: 475px;
+  width: 300px;
+  color: #E5E5E1;
+  left: 820px;
+  font-family: 'Century Gothic';
+  font-weight: 900;
+  font-size: 14px;
+
+}
+.terms{
+  color: #1887DD;
+  text-decoration: none;
+}
